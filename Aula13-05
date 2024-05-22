@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang= "pt-br">
+<head>
+     <meta charset="utf-8">
+     <style>
+        h1 {
+            font-weight: bold;
+            padding: 16pt;
+            text-align:center;
+        }
+        p {
+          font-weight:bold;
+          paddig: 16pt;
+          text-aling:center;
+       }
+       .img {
+          margin-top: -10px;
+          margin-left: 660px;
+       }
+       .meio {
+          margin-top: -10px;
+          margin-left: 825px;
+       }
+       .mainmenubtn {
+          backgroun-color: red;
+          color:blue;
+          border: none;
+          cursor: pointer;
+          padding: 20px;
+          margin-top: 20px;
+       }
+       .mainmenubtn; hover {
+        background-color: red;
+       }
+       .dropdown {
+         position: relative;
+         display: inline-block;
+       }
+       .dropdown-child {
+         display:none;
+         background-color: red;
+         min-width: 200px;
+       }
+       .dropdown-child a {
+        color:blue;
+        padding:20px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown:hover .dropdown-child {
+         display: block;
+      }
+      .aps {
+       color: blue;
+       padding:20px;
+       text-decoration: none;
+       display: block;
+      }
+      .dropdown: hover .dropdown-child {
+        display: block;
+      }
+      .aps {
+        margin-top: -10px;
+        margin-left: 825px;
+      }
+    </style>
+</head>
+<body>
+   <header>
+       <div class= "dropdown">
+           <button class= "mainmenubtn">Menu</button>
+           <div class="dropdown-child">
+             <a href="#anchor1">PWD</a>
+             <a href="#anchor2">APS</a>
+             <a href="#anchor3">DG</a>
+        </div>
+      </div>
+      <h1> CEEMTI BAIXO GUANDU</h1>
+      <div class="img">
+        <img src="LogoEscola.png">
+      </div>
+   </header>
+
+   <main>
+   <p> Programação Web Design</p>
+   <div class= "meio">
+      <img src=file:///D:/Meus%20Documentos/Aluno/Desktop/Jo%C3%A3o%20Vin%C3%ADcius%20e%20Eduardo%20Santos%203%C2%B0ipi/0-destaque-linguagens-de-programacao-2019.jpg" width= "200">
+      <div id= "anchor1"> </div>
+</div>
+<p> Desenvolvimento de Games </p>
+<div class="meio">
+    <img src="file:///D:/Meus%20Documentos/Aluno/Desktop/Jo%C3%A3o%20Vin%C3%ADcius%20e%20Eduardo%20Santos%203%C2%B0ipi/images.jpg" width= "250" height="150">
+    <div id="anchor2"> </div>
+</div>
+<p> Analise e Projeto de Sistema</p>
+<div class="aps">
+    <img src="file:///D:/Meus%20Documentos/Aluno/Desktop/Jo%C3%A3o%20Vin%C3%ADcius%20e%20Eduardo%20Santos%203%C2%B0ipi/Estudantes-de-Analise-e-Desenvolvimento-de-Sistemas-participam-do-ProjetAi.jpg" width="200"
+    <div id="anchor3"> </div>
+  </div>
+</main>
+
+  <footer>
+    <p> João e Eduardo </p>
+  </footer>
+</body>
+</html>
